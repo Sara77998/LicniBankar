@@ -1,0 +1,56 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyncfusionApp"
+        xmlns:Syncfusion="http://schemas.syncfusion.com/wpf" x:Class="SyncfusionApp.MainWindow"
+        mc:Ignorable="d"
+        Title="Licni bankar" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Syncfusion:SfTreeView HorizontalAlignment="Left" 
+                               Margin="0,10,0,10" 
+                               VerticalAlignment="Top" 
+                               Width="120"
+                               Grid.Column="0">
+            <Syncfusion:SfTreeView.Nodes>
+                <Syncfusion:TreeViewNode Content="Pregled" IsExpanded="True">
+                    <Syncfusion:TreeViewNode.ChildNodes>
+                        <Syncfusion:TreeViewNode Content="Unos"/>
+                        <Syncfusion:TreeViewNode Content="Statistika"/>
+                    </Syncfusion:TreeViewNode.ChildNodes>
+                </Syncfusion:TreeViewNode>
+                <Syncfusion:TreeViewNode Content="Troškovi" IsExpanded="true">
+                    <Syncfusion:TreeViewNode.ChildNodes>
+                        <Syncfusion:TreeViewNode Content="Keš"/>
+                        <Syncfusion:TreeViewNode Content="Kartica"/>
+                        <Syncfusion:TreeViewNode Content="Sve"/>
+                    </Syncfusion:TreeViewNode.ChildNodes>
+                </Syncfusion:TreeViewNode>
+                <Syncfusion:TreeViewNode Content="Prihodi" IsExpanded="true">
+                    <Syncfusion:TreeViewNode.ChildNodes>
+                        <Syncfusion:TreeViewNode Content="Keš"/>
+                        <Syncfusion:TreeViewNode Content="Kartica"/>
+                        <Syncfusion:TreeViewNode Content="Sve"/>
+                    </Syncfusion:TreeViewNode.ChildNodes>
+                </Syncfusion:TreeViewNode>
+                <Syncfusion:TreeViewNode Content="Ušteda" IsExpanded="true">
+                    <Syncfusion:TreeViewNode.ChildNodes>
+                        <Syncfusion:TreeViewNode Content="Grafici"/>
+                        <Syncfusion:TreeViewNode Content="Statistika"/>
+                        <Syncfusion:TreeViewNode Content="Whish list"/>
+                    </Syncfusion:TreeViewNode.ChildNodes>
+                </Syncfusion:TreeViewNode>
+            </Syncfusion:SfTreeView.Nodes>
+        </Syncfusion:SfTreeView>
+        <Grid Grid.Column="1">
+            
+        </Grid>
+
+    </Grid>
+</Window>

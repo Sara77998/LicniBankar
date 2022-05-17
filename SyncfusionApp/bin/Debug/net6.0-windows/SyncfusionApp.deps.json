@@ -1,0 +1,116 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SyncfusionApp/1.0.0": {
+        "dependencies": {
+          "Syncfusion.SfTreeView.WPF": "20.1.0.56"
+        },
+        "runtime": {
+          "SyncfusionApp.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/20.1.0.56": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.1.0.56",
+            "fileVersion": "20.1.0.56"
+          }
+        }
+      },
+      "Syncfusion.SfBusyIndicator.WPF/20.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfBusyIndicator.WPF.dll": {
+            "assemblyVersion": "20.1500.0.56",
+            "fileVersion": "20.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.SfGridCommon.WPF/20.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfGridCommon.WPF.dll": {
+            "assemblyVersion": "20.1500.0.56",
+            "fileVersion": "20.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.SfTreeView.WPF/20.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56",
+          "Syncfusion.SfBusyIndicator.WPF": "20.1.0.56",
+          "Syncfusion.SfGridCommon.WPF": "20.1.0.56",
+          "Syncfusion.Shared.WPF": "20.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfTreeView.WPF.dll": {
+            "assemblyVersion": "20.1500.0.56",
+            "fileVersion": "20.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/20.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "20.1500.0.56",
+            "fileVersion": "20.1500.0.56"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyncfusionApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Licensing/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n/4jW8VTykMfHKPx4Cncz3fjvi4YTcE1gLnlIaSN+XLOuPV7mWQJmw/XnF1IQnaNgqqtSXsH9wSqpOvcDIic1A==",
+      "path": "syncfusion.licensing/20.1.0.56",
+      "hashPath": "syncfusion.licensing.20.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.SfBusyIndicator.WPF/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/eEke+rBnkFgN0ppq1L8sIi8b3tZeXeKMQDVarvVyzS4+YUyGuSf2+hQesHwvYH4p0mETp4WeYOoNOOPFf9rlg==",
+      "path": "syncfusion.sfbusyindicator.wpf/20.1.0.56",
+      "hashPath": "syncfusion.sfbusyindicator.wpf.20.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.SfGridCommon.WPF/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FUm+GNJF1qr+jKieWPUxqvGwXz86mGwpUtgkKeSpGp7QB2Hj06s4z4ww0UaqmWjN+uCB4CFg84Of2vjtCfgHSw==",
+      "path": "syncfusion.sfgridcommon.wpf/20.1.0.56",
+      "hashPath": "syncfusion.sfgridcommon.wpf.20.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.SfTreeView.WPF/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wtxfQfihGXg2k4KMFmB10hU0Bl9m9AerK/kjE1qQtU+1Vn+76IAr0paXvYLK514scj2+3Z6uQf8nzcSYl9jaPg==",
+      "path": "syncfusion.sftreeview.wpf/20.1.0.56",
+      "hashPath": "syncfusion.sftreeview.wpf.20.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vCRuz6tY3lJvqFrmL2E3WCmCt9m5EB9+gTDe4aw70j/o2RRIvDfn2G6hrgmN/4Pj3yf0FGCI+1ra1piV7KGg4Q==",
+      "path": "syncfusion.shared.wpf/20.1.0.56",
+      "hashPath": "syncfusion.shared.wpf.20.1.0.56.nupkg.sha512"
+    }
+  }
+}
