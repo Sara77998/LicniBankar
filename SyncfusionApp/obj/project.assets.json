@@ -23,6 +23,18 @@
           "lib/net5.0-windows7.0/Syncfusion.SfBusyIndicator.WPF.dll": {}
         }
       },
+      "Syncfusion.SfChart.WPF/20.1.0.56": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.dll": {}
+        }
+      },
       "Syncfusion.SfGridCommon.WPF/20.1.0.56": {
         "type": "package",
         "dependencies": {
@@ -139,6 +151,52 @@
         "lib/netcoreapp3.1/Syncfusion.SfBusyIndicator.WPF.xml",
         "syncfusion.sfbusyindicator.wpf.20.1.0.56.nupkg.sha512",
         "syncfusion.sfbusyindicator.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfChart.WPF/20.1.0.56": {
+      "sha512": "X6iLriXZ6YfSVWCB++Vt9UBFHaev443B7d8ovJU2diZX//B9BkrsrGHwZ7cV2H5NZaRPgQTodKJD/g3x9HstiA==",
+      "type": "package",
+      "path": "syncfusion.sfchart.wpf/20.1.0.56",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.xml",
+        "lib/net5.0-windows7.0/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.xml",
+        "syncfusion.sfchart.wpf.20.1.0.56.nupkg.sha512",
+        "syncfusion.sfchart.wpf.nuspec",
         "syncfusion_logo.png",
         "tools/VisualStudioToolsManifest.xml"
       ]
@@ -274,6 +332,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Syncfusion.SfChart.WPF >= 20.1.0.56",
       "Syncfusion.SfTreeView.WPF >= 20.1.0.56"
     ]
   },
@@ -316,6 +375,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "Syncfusion.SfChart.WPF": {
+            "target": "Package",
+            "version": "[20.1.0.56, )"
+          },
           "Syncfusion.SfTreeView.WPF": {
             "target": "Package",
             "version": "[20.1.0.56, )"

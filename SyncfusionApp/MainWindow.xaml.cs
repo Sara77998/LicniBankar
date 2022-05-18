@@ -23,6 +23,13 @@ namespace SyncfusionApp
         public MainWindow()
         {
             InitializeComponent();
+
+            ViewModel.vm_MainWindow vm = new ViewModel.vm_MainWindow(GrdUC, treeViewMain);
+            //GrdUC.DataContext = vm;
+            //this.DataContext = vm;
+            //if (vm.ZatvoriFormu == null)
+            //    vm.ZatvoriFormu = new Action(this.Close);
         }
     }
+    
 }

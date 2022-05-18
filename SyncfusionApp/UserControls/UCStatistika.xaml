@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="SyncfusionApp.UserControls.UCStatistika"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SyncfusionApp.UserControls"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Black">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Right"
+                        Margin="0 0 30 20">
+                
+            </StackPanel>
+            <TextBlock Text="Statistika"
+                       FontSize="26"
+                       Foreground="#ccd7ff"
+                       HorizontalAlignment="Left"
+                       Margin="50 35 0 20">
+            </TextBlock>
+        </Grid>
+    </Grid>
+</UserControl>

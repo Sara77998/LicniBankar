@@ -5,50 +5,110 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SyncfusionApp"
         xmlns:Syncfusion="http://schemas.syncfusion.com/wpf" x:Class="SyncfusionApp.MainWindow"
-        mc:Ignorable="d"
-        Title="Licni bankar" Height="450" Width="800">
-    <Grid>
+        mc:Ignorable="d"  WindowStartupLocation ="CenterScreen"
+        Title="Licni bankar" Height="460" Width="950"
+        >
+    <Grid Background="Black">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="800"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        
+        
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical"
+                        Grid.Row="0">
+                <StackPanel Orientation="Horizontal"
+                            Margin="0 10 0 0">
+                    <Border CornerRadius="10"
+                        Margin="5 "
+                        Width="40"
+                        Height="40">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0"
+                                             EndPoint="1,2">
+                                <GradientStop Color="#7f7cf1" Offset="0"></GradientStop>
+                                <GradientStop Color="#d3b7ff" Offset="1"></GradientStop>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <TextBlock Text="LB"
+                                Margin="3,0,0,2"
+                                FontWeight="SemiBold"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="center"
+                                Foreground="WhiteSmoke"
+                                FontSize="20">
+                        </TextBlock>
+                    </Border>
+                    <StackPanel Orientation="Vertical"
+                            VerticalAlignment="Center">
+                        <TextBlock Text="Lični bankar"
+                               Foreground="#c2cfff"
+                               FontSize="15">
+                        </TextBlock>
+                        <TextBlock Text="2022. godina"
+                               Foreground="#7788bf">
 
-        <Syncfusion:SfTreeView HorizontalAlignment="Left" 
-                               Margin="0,10,0,10" 
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <Separator Height="0.8"
+                       Margin="20,11"
+                       Background="White">
+
+                </Separator>
+            </StackPanel>
+            
+            
+            <Syncfusion:SfTreeView HorizontalAlignment="Left" 
+                                   Name="treeViewMain"
+                               Margin="0,0,0,10" 
                                VerticalAlignment="Top" 
                                Width="120"
-                               Grid.Column="0">
-            <Syncfusion:SfTreeView.Nodes>
-                <Syncfusion:TreeViewNode Content="Pregled" IsExpanded="True">
-                    <Syncfusion:TreeViewNode.ChildNodes>
-                        <Syncfusion:TreeViewNode Content="Unos"/>
-                        <Syncfusion:TreeViewNode Content="Statistika"/>
-                    </Syncfusion:TreeViewNode.ChildNodes>
-                </Syncfusion:TreeViewNode>
-                <Syncfusion:TreeViewNode Content="Troškovi" IsExpanded="true">
-                    <Syncfusion:TreeViewNode.ChildNodes>
-                        <Syncfusion:TreeViewNode Content="Keš"/>
-                        <Syncfusion:TreeViewNode Content="Kartica"/>
-                        <Syncfusion:TreeViewNode Content="Sve"/>
-                    </Syncfusion:TreeViewNode.ChildNodes>
-                </Syncfusion:TreeViewNode>
-                <Syncfusion:TreeViewNode Content="Prihodi" IsExpanded="true">
-                    <Syncfusion:TreeViewNode.ChildNodes>
-                        <Syncfusion:TreeViewNode Content="Keš"/>
-                        <Syncfusion:TreeViewNode Content="Kartica"/>
-                        <Syncfusion:TreeViewNode Content="Sve"/>
-                    </Syncfusion:TreeViewNode.ChildNodes>
-                </Syncfusion:TreeViewNode>
-                <Syncfusion:TreeViewNode Content="Ušteda" IsExpanded="true">
-                    <Syncfusion:TreeViewNode.ChildNodes>
-                        <Syncfusion:TreeViewNode Content="Grafici"/>
-                        <Syncfusion:TreeViewNode Content="Statistika"/>
-                        <Syncfusion:TreeViewNode Content="Whish list"/>
-                    </Syncfusion:TreeViewNode.ChildNodes>
-                </Syncfusion:TreeViewNode>
-            </Syncfusion:SfTreeView.Nodes>
-        </Syncfusion:SfTreeView>
-        <Grid Grid.Column="1">
+                               Grid.Column="0"
+                               Grid.Row="1"
+                               Foreground="WhiteSmoke"
+                               SelectedItem="{Binding izbor}">
+                
+                <Syncfusion:SfTreeView.Nodes>
+                    <Syncfusion:TreeViewNode Content="Pregled" IsExpanded="True">
+                        <Syncfusion:TreeViewNode.ChildNodes>
+                            <Syncfusion:TreeViewNode Content="Unos"/>
+                            <Syncfusion:TreeViewNode Content="Statistika"/>
+                        </Syncfusion:TreeViewNode.ChildNodes>
+                    </Syncfusion:TreeViewNode>
+                    <Syncfusion:TreeViewNode Content="Troškovi" IsExpanded="true">
+                        <Syncfusion:TreeViewNode.ChildNodes>
+                            <Syncfusion:TreeViewNode Content="Keš"/>
+                            <Syncfusion:TreeViewNode Content="Kartica"/>
+                            <Syncfusion:TreeViewNode Content="Sve"/>
+                        </Syncfusion:TreeViewNode.ChildNodes>
+                    </Syncfusion:TreeViewNode>
+                    <Syncfusion:TreeViewNode Content="Prihodi" IsExpanded="true">
+                        <Syncfusion:TreeViewNode.ChildNodes>
+                            <Syncfusion:TreeViewNode Content="Keš"/>
+                            <Syncfusion:TreeViewNode Content="Kartica"/>
+                            <Syncfusion:TreeViewNode Content="Sve"/>
+                        </Syncfusion:TreeViewNode.ChildNodes>
+                    </Syncfusion:TreeViewNode>
+                    <Syncfusion:TreeViewNode Content="Ušteda" IsExpanded="true">
+                        <Syncfusion:TreeViewNode.ChildNodes>
+                            <Syncfusion:TreeViewNode Content="Grafici"/>
+                            <Syncfusion:TreeViewNode Content="Statistika"/>
+                            <Syncfusion:TreeViewNode Content="Whish list"/>
+                        </Syncfusion:TreeViewNode.ChildNodes>
+                    </Syncfusion:TreeViewNode>
+                </Syncfusion:SfTreeView.Nodes>
+            </Syncfusion:SfTreeView>
+        </Grid>
+
+        
+        <Grid Grid.Column="1"
+              Name="GrdUC">
             
         </Grid>
 

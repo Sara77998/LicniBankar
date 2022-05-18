@@ -25,6 +25,17 @@
           }
         }
       },
+      "Syncfusion.SfChart.WPF/20.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "assemblyVersion": "20.1500.0.56",
+            "fileVersion": "20.1500.0.56"
+          }
+        }
+      },
       "Syncfusion.SfGridCommon.WPF/20.1.0.56": {
         "dependencies": {
           "Syncfusion.Licensing": "20.1.0.56"
@@ -77,6 +88,13 @@
       "sha512": "sha512-/eEke+rBnkFgN0ppq1L8sIi8b3tZeXeKMQDVarvVyzS4+YUyGuSf2+hQesHwvYH4p0mETp4WeYOoNOOPFf9rlg==",
       "path": "syncfusion.sfbusyindicator.wpf/20.1.0.56",
       "hashPath": "syncfusion.sfbusyindicator.wpf.20.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.SfChart.WPF/20.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X6iLriXZ6YfSVWCB++Vt9UBFHaev443B7d8ovJU2diZX//B9BkrsrGHwZ7cV2H5NZaRPgQTodKJD/g3x9HstiA==",
+      "path": "syncfusion.sfchart.wpf/20.1.0.56",
+      "hashPath": "syncfusion.sfchart.wpf.20.1.0.56.nupkg.sha512"
     },
     "Syncfusion.SfGridCommon.WPF/20.1.0.56": {
       "type": "package",

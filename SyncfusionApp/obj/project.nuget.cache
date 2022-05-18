@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DKFO8+5gxGdZpkxpIwf7DKgf0i6AfbiCbRvDWvbJYSfm3Y6bvp8BPBYMfCA4GabQCQbk6gIRZUQlDg7otnyXMw==",
+  "dgSpecHash": "EetFxiIcUYx2WM+gt4L9L3uApgi0xVzVOKA766kzGyoFc68mlILbPl8Sec7aaTB/dMirhvYjfDWBm5ehYvxuDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SaraC\\source\\repos\\SyncfusionApp\\SyncfusionApp\\SyncfusionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.licensing\\20.1.0.56\\syncfusion.licensing.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sfbusyindicator.wpf\\20.1.0.56\\syncfusion.sfbusyindicator.wpf.20.1.0.56.nupkg.sha512",
+    "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sfchart.wpf\\20.1.0.56\\syncfusion.sfchart.wpf.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sfgridcommon.wpf\\20.1.0.56\\syncfusion.sfgridcommon.wpf.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sftreeview.wpf\\20.1.0.56\\syncfusion.sftreeview.wpf.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.shared.wpf\\20.1.0.56\\syncfusion.shared.wpf.20.1.0.56.nupkg.sha512"

@@ -16,5 +16,6 @@
     <PkgSyncfusion_Shared_WPF Condition=" '$(PkgSyncfusion_Shared_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.shared.wpf\20.1.0.56</PkgSyncfusion_Shared_WPF>
     <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.sfbusyindicator.wpf\20.1.0.56</PkgSyncfusion_SfBusyIndicator_WPF>
     <PkgSyncfusion_SfTreeView_WPF Condition=" '$(PkgSyncfusion_SfTreeView_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.sftreeview.wpf\20.1.0.56</PkgSyncfusion_SfTreeView_WPF>
+    <PkgSyncfusion_SfChart_WPF Condition=" '$(PkgSyncfusion_SfChart_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.sfchart.wpf\20.1.0.56</PkgSyncfusion_SfChart_WPF>
   </PropertyGroup>
 </Project>
