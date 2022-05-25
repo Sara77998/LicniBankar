@@ -30,3 +30,14 @@ C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCStatistika.g.cs
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCStatistika.baml
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\Syncfusion.SfChart.WPF.dll
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\App.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCSvasta.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCSvasta.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\Orders.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\Orders.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\Infocard.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\Infocard.baml

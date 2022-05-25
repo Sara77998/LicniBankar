@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UserControls\Infocard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Orders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControls\UCStatistika.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\UCSvasta.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControls\UserControl1.xaml.cs">
@@ -18,7 +27,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UserControls\Infocard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Orders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControls\UCStatistika.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UCSvasta.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\UserControl1.xaml">

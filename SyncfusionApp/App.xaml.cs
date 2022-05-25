@@ -13,5 +13,10 @@ namespace SyncfusionApp
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NjQzNDk3QDMyMzAyZTMxMmUzMENaVlhDRzRSYmNDMGpocFJ4S2NEb3llK3M1K1FBSENyVzJGVEpXb1c4U1k9");
+        }
+        
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\App.xaml
-3-368387906
+61820464526
 
-9487698345
-200-1797718651
-MainWindow.xaml;UserControls\UCStatistika.xaml;UserControls\UserControl1.xaml;
+121413007386
+212-424755571
+MainWindow.xaml;UserControls\Infocard.xaml;UserControls\Orders.xaml;UserControls\UCStatistika.xaml;UserControls\UCSvasta.xaml;UserControls\UserControl1.xaml;
 
-False
+True
 

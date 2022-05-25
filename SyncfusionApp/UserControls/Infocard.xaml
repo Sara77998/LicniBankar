@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="SyncfusionApp.UserControls.Infocard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SyncfusionApp.UserControls"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+             mc:Ignorable="d" Name="infoCard" Width="300" Height="140">
+
+    <Border Margin="0 0 9 0">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                <GradientStop Color="{Binding Path=Background1, ElementName=infoCard}" Offset="0"></GradientStop>
+                <GradientStop Color="{Binding Path=Background2, ElementName=infoCard}" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Border.Clip>
+            <RectangleGeometry RadiusX="15" RadiusY="15" Rect="0,0,291,140"></RectangleGeometry>
+        </Border.Clip>
+
+        <Grid>
+            <Ellipse Width="230" Height="230" Margin="0 -130 -90 0" HorizontalAlignment="Right">
+                <Ellipse.Fill>
+                    <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                        <GradientStop Color="{Binding Path=EllipseBackground1, ElementName=infoCard}" Offset="0"></GradientStop>
+                        <GradientStop Color="{Binding Path=EllipseBackground2, ElementName=infoCard}" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <fa:IconImage Icon="{Binding Path=Icon, ElementName=infoCard}" Margin="0 0 25 25" Width="60" Height="60" Foreground="#ffff" HorizontalAlignment="Right"></fa:IconImage>
+
+            <StackPanel Margin="35 0 0 20" VerticalAlignment="Bottom">
+                <TextBlock Text="{Binding Path=Title, ElementName=infoCard}" Foreground="#e9e9e9" FontSize="14"></TextBlock>
+                <TextBlock Text="my friends" Foreground="#ffff" FontSize="28" FontWeight="SemiBold"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Border>
+
+    
+    
+</UserControl>

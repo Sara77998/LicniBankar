@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EetFxiIcUYx2WM+gt4L9L3uApgi0xVzVOKA766kzGyoFc68mlILbPl8Sec7aaTB/dMirhvYjfDWBm5ehYvxuDQ==",
+  "dgSpecHash": "B4DoKICNZLQM/mdVS8NRXu1G1aucf2SFBMnq4+uhDR7jtsO9eYyaoqyXnbAhQ42RQYG7UTXWo4edIBRFA9gNCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\SaraC\\source\\repos\\SyncfusionApp\\SyncfusionApp\\SyncfusionApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SaraC\\.nuget\\packages\\fontawesome.sharp\\5.15.4\\fontawesome.sharp.5.15.4.nupkg.sha512",
+    "C:\\Users\\SaraC\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\SaraC\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.licensing\\20.1.0.56\\syncfusion.licensing.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sfbusyindicator.wpf\\20.1.0.56\\syncfusion.sfbusyindicator.wpf.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sfchart.wpf\\20.1.0.56\\syncfusion.sfchart.wpf.20.1.0.56.nupkg.sha512",
@@ -11,5 +14,26 @@
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.sftreeview.wpf\\20.1.0.56\\syncfusion.sftreeview.wpf.20.1.0.56.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.shared.wpf\\20.1.0.56\\syncfusion.shared.wpf.20.1.0.56.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

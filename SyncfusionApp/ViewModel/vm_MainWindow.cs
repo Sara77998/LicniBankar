@@ -2,14 +2,9 @@
 using Syncfusion.UI.Xaml.TreeView.Engine;
 using SyncfusionApp.UserControls;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using TreeViewItem = System.Windows.Controls.TreeViewItem;
 
 namespace SyncfusionApp.ViewModel
 {
@@ -80,9 +75,18 @@ namespace SyncfusionApp.ViewModel
             {
                 UserControl1 uc1 = new UserControl1();
                 GrdUC.Children.Add(uc1);
-                //GrdUC.DataContext = uc1;
             }
-            //MessageBox.Show(izbor);
+            if (izbor == "Statistika")
+            {
+                UCStatistika uc = new UCStatistika();
+                GrdUC.Children.Add(uc);
+            }
+            if (izbor == "Keš")
+            {
+                UCSvasta uc = new UCSvasta();
+                GrdUC.Children.Add(uc);
+            }
+
         }
     }
 }

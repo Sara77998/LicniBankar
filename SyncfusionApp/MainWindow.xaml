@@ -4,14 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SyncfusionApp"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        
         xmlns:Syncfusion="http://schemas.syncfusion.com/wpf" x:Class="SyncfusionApp.MainWindow"
         mc:Ignorable="d"  WindowStartupLocation ="CenterScreen"
-        Title="Licni bankar" Height="460" Width="950"
+        Title="Licni bankar" Height="700" Width="1500"
         >
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"></ColumnDefinition>
-            <ColumnDefinition Width="800"></ColumnDefinition>
+            <ColumnDefinition Width="1350"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
         
@@ -108,7 +110,7 @@
 
         
         <Grid Grid.Column="1"
-              Name="GrdUC">
+              Name="GrdUC" Width="auto" Height="auto">
             
         </Grid>
 

@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="5.15.4" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
     <PackageReference Include="Syncfusion.SfChart.WPF" Version="20.1.0.56" />
     <PackageReference Include="Syncfusion.SfTreeView.WPF" Version="20.1.0.56" />
   </ItemGroup>
