@@ -136,13 +136,13 @@
 
 
 
-        <Style x:Key="titleText" TargetType="TextBlock">
+        <!--<Style x:Key="titleText" TargetType="TextBlock">
             <Setter Property="Foreground" Value="#fff"></Setter>
             <Setter Property="FontSize" Value="18"></Setter>
             <Setter Property="FontWeight" Value="SemiBold"></Setter>
             <Setter Property="Margin" Value="10 0 0 0"></Setter>
             <Setter Property="VerticalAlignment" Value="Center"></Setter>
-        </Style>
+        </Style>-->
 
         <Style x:Key="titleIcon"  TargetType="fa:IconImage">
             <Setter Property="Width" Value="18"></Setter>
@@ -151,8 +151,118 @@
             <Setter Property="Foreground" Value="#7b82ea" ></Setter>
         </Style>
         
+        <!--Za Klip2-->
+        
+        <Style x:Key="titleText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="#ffffff"></Setter>
+        </Style>
+
+        <Style x:Key="normalText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="LineHeight" Value="28"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="#ffffff"></Setter>
+        </Style>
+
+        <Style x:Key="button" TargetType="Button">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Width" Value="170"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="#fdfefe"></Setter>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border  Background="{TemplateBinding Background}" CornerRadius="25" BorderThickness="1" BorderBrush="White" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#e8e8e8"></Setter>
+                    <Setter Property="Foreground" Value="DimGray"></Setter>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#c4c4c4"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="buttonCircle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"></Setter>
+            <Setter Property="Margin" Value="10 0"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border  Background="{TemplateBinding Background}" CornerRadius="30" BorderBrush="Black" BorderThickness="1" >
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#d9d9d9"></Setter>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#c4c4c4"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="mainbutton" TargetType="Button">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Margin" Value="0 20 0 0"></Setter>
+            <Setter Property="Background" Value="#3AB19B"></Setter>
+            <Setter Property="Foreground" Value="#FDFEFE"></Setter>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border  Background="{TemplateBinding Background}" CornerRadius="25" BorderThickness="1" BorderBrush="#49B7A3" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#e8e8e8"></Setter>
+                    <Setter Property="Foreground" Value="white"></Setter>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="White"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="textHint" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Grid.Column" Value="1"></Setter>
+            <Setter Property="Panel.ZIndex" Value="1"></Setter>
+            <Setter Property="Margin" Value="10 0 0 0"></Setter>
+            <Setter Property="Foreground" Value="#abc0af"></Setter>
+        </Style>
+
+        <Style x:Key="textBox" TargetType="Control">
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="Grid.Column" Value="1"></Setter>
+            <Setter Property="Margin" Value="10 0 0 0"></Setter>
+            <Setter Property="Foreground" Value="#878787"></Setter>
+            <Setter Property="BorderBrush" Value="Transparent"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+        </Style>
         
         
         
+
     </Application.Resources>
 </Application>
