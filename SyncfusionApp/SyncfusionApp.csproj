@@ -8,10 +8,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Slike\close.png" />
+    <None Remove="Slike\fblogo.png" />
+    <None Remove="Slike\minimize.png" />
+    <None Remove="Slike\profile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="5.15.4" />
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
     <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
     <PackageReference Include="Syncfusion.SfChart.WPF" Version="20.1.0.56" />
     <PackageReference Include="Syncfusion.SfTreeView.WPF" Version="20.1.0.56" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Slike\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Slike\fblogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Slike\minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Slike\profile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

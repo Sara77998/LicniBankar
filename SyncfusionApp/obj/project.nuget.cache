@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B4DoKICNZLQM/mdVS8NRXu1G1aucf2SFBMnq4+uhDR7jtsO9eYyaoqyXnbAhQ42RQYG7UTXWo4edIBRFA9gNCQ==",
+  "dgSpecHash": "02W4rzHDywLSwedP22ZGgyZ5VHAR5qLs7temUiwPuM3IDa1FE9oc6VW2kYuUthl+osBY/wmQcVPebjgD15CwnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SaraC\\source\\repos\\SyncfusionApp\\SyncfusionApp\\SyncfusionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SaraC\\.nuget\\packages\\fontawesome.sharp\\5.15.4\\fontawesome.sharp.5.15.4.nupkg.sha512",
+    "C:\\Users\\SaraC\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.licensing\\20.1.0.56\\syncfusion.licensing.20.1.0.56.nupkg.sha512",
@@ -15,6 +16,16 @@
     "C:\\Users\\SaraC\\.nuget\\packages\\syncfusion.shared.wpf\\20.1.0.56\\syncfusion.shared.wpf.20.1.0.56.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

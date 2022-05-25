@@ -43,3 +43,6 @@ C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\Infocard.baml
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCLogin.g.cs
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCLogin.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCRegister.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCRegister.baml

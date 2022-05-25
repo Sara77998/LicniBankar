@@ -18,5 +18,6 @@
     <PkgSyncfusion_SfTreeView_WPF Condition=" '$(PkgSyncfusion_SfTreeView_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.sftreeview.wpf\20.1.0.56</PkgSyncfusion_SfTreeView_WPF>
     <PkgSyncfusion_SfChart_WPF Condition=" '$(PkgSyncfusion_SfChart_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\syncfusion.sfchart.wpf\20.1.0.56</PkgSyncfusion_SfChart_WPF>
     <PkgLiveCharts_Wpf Condition=" '$(PkgLiveCharts_Wpf)' == '' ">C:\Users\SaraC\.nuget\packages\livecharts.wpf\0.9.7</PkgLiveCharts_Wpf>
+    <PkgFontAwesome_WPF Condition=" '$(PkgFontAwesome_WPF)' == '' ">C:\Users\SaraC\.nuget\packages\fontawesome.wpf\4.7.0.9</PkgFontAwesome_WPF>
   </PropertyGroup>
 </Project>
