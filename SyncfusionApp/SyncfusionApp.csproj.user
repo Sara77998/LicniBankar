@@ -10,6 +10,12 @@
     <Compile Update="UserControls\Infocard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserControls\MyOption.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\MyTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControls\Orders.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +40,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\Infocard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\MyOption.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\MyTextBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\Orders.xaml">

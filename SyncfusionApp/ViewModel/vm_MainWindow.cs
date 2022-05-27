@@ -69,6 +69,9 @@ namespace SyncfusionApp.ViewModel
         private void TreeViewMain_SelectionChanged(object? sender, ItemSelectionChangedEventArgs e)
         {
              
+
+
+
             TreeViewNode tvi = treeViewMain.SelectedItem as TreeViewNode;
             string izbor = tvi.Content.ToString();
             if (izbor == "Unos")

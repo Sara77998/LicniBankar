@@ -30,6 +30,19 @@ namespace SyncfusionApp
             //if (vm.ZatvoriFormu == null)
             //    vm.ZatvoriFormu = new Action(this.Close);
         }
+
+
+        private void Button_Login(object sender, MouseButtonEventArgs e)
+        {
+            UserControls.UCLogin uc = new UserControls.UCLogin();
+            GrdUC.Children.Add(uc);
+        }
+
+        private void Button_Register(object sender, MouseButtonEventArgs e)
+        {
+            UserControls.UCRegister uc = new UserControls.UCRegister();
+            GrdUC.Children.Add(uc);
+        }
     }
     
 }

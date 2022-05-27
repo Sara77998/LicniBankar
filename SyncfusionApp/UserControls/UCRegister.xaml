@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+             xmlns:uc="clr-namespace:SyncfusionApp.UserControls;assembly="
              xmlns:local="clr-namespace:SyncfusionApp.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="650" d:DesignWidth="1000">
@@ -14,17 +15,85 @@
         </Grid.ColumnDefinitions>
         
         <!--levi deo-->
-        <Border Background="#ffd500" Padding="30" CornerRadius="25 0 0 25">
+        <Border Background="#ffd500" Padding="30" >
             <StackPanel VerticalAlignment="Center">
                 <Image Source="/Slike/profile.png" Width="180" Height="180"></Image>
                 <TextBlock Text="Lets get you set up!" TextAlignment="Center" FontSize="28" FontWeight="SemiBold" Foreground="#FF6E84A2"></TextBlock>
-                <TextBlock TextWrapping="Wrap" FontSize="16" TextAlignment="Center" Margin="0 20 0 20" Foreground="#FF39576B"></TextBlock>
+                <TextBlock Text="Beocme part of this app!" TextWrapping="Wrap" FontSize="16" TextAlignment="Center" Margin="0 20 0 20" Foreground="#FF39576B"></TextBlock>
 
                 <Button Style="{StaticResource buttonBlack}">
                     <fa:IconImage Icon="AngleRight" Width="25" Height="25" Foreground="#ffd500" Margin="3 0 0 0" ></fa:IconImage>
                 </Button>
             </StackPanel>
         </Border>
-            
+        
+        
+        <!--desni deo, input-->
+        <Border Grid.Column="1" Padding="20" Background="#ffff"  MouseDown="Border_MouseDown">
+            <Grid>
+                
+
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 40 0 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Name" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="1" Text="Family" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="2" Text="Gender" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="3" Text="Date of birth" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="4" Text="Email" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="5" Text="Mobile" Style="{StaticResource text}"/>
+                    <TextBlock Grid.Row="6" Text="Membership" Style="{StaticResource text}"/>
+
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="0" Hint="Sara"></uc:MyTextBox>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="1" Hint="Canovic"></uc:MyTextBox>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="3" Hint="01/03/2000"></uc:MyTextBox>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="4" Hint="saracanovic@gail.com"></uc:MyTextBox>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="5" Hint="804823483"></uc:MyTextBox>
+                    
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="0 10">
+                        <uc:MyOption Icon="Male" Text="Male"> </uc:MyOption>
+                        <uc:MyOption Icon="Female" Text="Female"> </uc:MyOption>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="6" Margin="0 10">
+                        <uc:MyOption Icon="CreditCard" Text="Clasic"></uc:MyOption>
+                        <uc:MyOption Icon="CreditCard" Text="Silver"></uc:MyOption>
+                        <uc:MyOption Icon="CreditCard" Text="Gold"></uc:MyOption>
+                    </StackPanel>
+                    
+                    <Grid Grid.Column="1" Grid.Row="7" Margin="0 40 0 10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Content="Cancel" Margin="0 0 10 0" Style="{StaticResource buttonGlavni}" Background="#FFDA4646"></Button>
+                        <Button Content="Save" Margin="10 0 0 0" Grid.Column="1" Style="{StaticResource buttonGlavniGreen}" Background="#FF00A211"></Button>
+                    </Grid>
+
+                    
+
+
+                </Grid>
+                
+            </Grid>
+        </Border>
+        
+        
+        
     </Grid>
 </UserControl>

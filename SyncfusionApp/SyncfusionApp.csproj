@@ -9,8 +9,6 @@
 
   <ItemGroup>
     <None Remove="Slike\close.png" />
-    <None Remove="Slike\fblogo.png" />
-    <None Remove="Slike\minimize.png" />
     <None Remove="Slike\profile.png" />
   </ItemGroup>
 
@@ -24,12 +22,6 @@
 
   <ItemGroup>
     <Resource Include="Slike\close.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Slike\fblogo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Slike\minimize.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Slike\profile.png">

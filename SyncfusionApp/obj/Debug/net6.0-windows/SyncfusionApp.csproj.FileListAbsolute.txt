@@ -46,3 +46,7 @@ C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCRegister.g.cs
 C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\UCRegister.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\MyTextBox.baml
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\MyTextBox.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\MyOption.g.cs
+C:\Users\SaraC\source\repos\SyncfusionApp\SyncfusionApp\obj\Debug\net6.0-windows\UserControls\MyOption.baml
